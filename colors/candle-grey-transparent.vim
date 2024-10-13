@@ -33,12 +33,11 @@ let s:gray_z = "999999" " #999999
 let s:gray_q = "b8b8b8" " #b8b8b8
 let s:gray_w = "9c9c9c" " #9c9c9c
 let s:gray_exp = "ff6d7c" " #ff6d7c
+let s:gray_dark = "2d2d2d" " #2d2d2d
 
 let s:norm = s:white
-let s:comments_bg = s:gray_d
+let s:comments_bg = s:gray_dark
 let s:comments_fg = s:gray_1
-" let s:comments_bg = s:dark_brown
-" let s:comments_fg = s:beige
 let s:search_bg = s:comments_bg
 let s:search_fg = s:comments_fg
 let s:id_fg = s:gray_w
